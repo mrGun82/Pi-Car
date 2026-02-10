@@ -5,7 +5,7 @@
     <groupId>mr.g.pi</groupId>
     <artifactId>Pi-Car</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging> <!-- 父模块必须为pom类型 -->
+    <packaging>pom</packaging>
     <name>Pi-Car</name>
     <description>树莓派遥控小车项目父模块</description>
 
@@ -20,8 +20,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>3.3.0</version>
+        <relativePath/>
     </parent>
 
     <url/>
@@ -39,7 +39,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
-        <pi4j.version>3.0.3</pi4j.version>
+        <pi4j.version>2.5.0</pi4j.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -49,7 +49,7 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-webmvc</artifactId>
+                <artifactId>spring-boot-starter-web</artifactId>
             </dependency>
 
             <dependency>
@@ -70,7 +70,7 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-webmvc-test</artifactId>
+                <artifactId>spring-boot-starter-web-test</artifactId>
                 <scope>test</scope>
             </dependency>
             <dependency>
