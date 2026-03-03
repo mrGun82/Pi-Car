@@ -1,13 +1,13 @@
 package com.example.car.web;
 
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 //
-//@SpringBootApplication
+@SpringBootApplication
 public class CarWebApplication {
 
     public static void main(String[] args) {
-//        SpringApplication.run(CarWebApplication.class, args);
+        SpringApplication.run(CarWebApplication.class, args);
     }
 
 }
